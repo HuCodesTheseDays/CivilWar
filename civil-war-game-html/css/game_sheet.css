@@ -65,6 +65,26 @@
     width: 20em;
 }
 
+#scene-three-servant-left-text{
+  position:relative;
+  left:200px;
+  top:30px;
+  color:#000000;
+  font-family: Courgette;
+  overflow-wrap: normal;
+  width: 40em;
+}
+
+#scene-four-apprentice-left-text{
+    position:relative;
+    left:125px;
+    top:550px;
+    color:#000000;
+    font-family: Courgette;
+    overflow-wrap: normal;
+    width: 50em;
+}
+
 #scene-two-canton-right-text {
     position:relative;
     left: 1000px;
@@ -139,8 +159,8 @@
 }
 
 #scene-three-missionary-servant {
-    background:url("../images/america_missionary_servant.jpg") no-repeat center;
-    height:540px;
+    background:url("../images/america_missionary_servant.jpg") no-repeat ;
+    height:100%;
 }
 
 #scene-three-slave {
@@ -151,19 +171,19 @@
 #scene-three-missionary-right {
 
     position:absolute;
-    left:550px;
-    top:40px;
+    left:1000px;
+    top:20px;
     color:#000000;
     font-family: Courgette;
     overflow-wrap: normal;
     width: 42em;
-    font-size:12px;
+    font-size:14px;
 }
 
 #scene-three-missionary-bottom {
     position:absolute;
-    left:250px;
-    top:460px;
+    left:1000px;
+    top:330px;
     color:#000000;
     font-family: Courgette;
     overflow-wrap: normal;
@@ -181,7 +201,7 @@
     font-size: 16px;
     font-family: 'Cookie', cursive;
     position:absolute;
-    left:500px;
+    left:1000px;
     top:500px;
     transition: 1s;
     -webkit-tap-highlight-color: transparent;
@@ -201,7 +221,7 @@
     font-size: 16px;
     font-family: 'Cookie', cursive;
     position:absolute;
-    left:600px;
+    left:1000px;
     top:440px;
     transition: 1s;
     -webkit-tap-highlight-color: transparent;
@@ -221,8 +241,8 @@
     font-size: 16px;
     font-family: 'Cookie', cursive;
     position:absolute;
-    left:780px;
-    top:500px;
+    left:1000px;
+    top:380px;
     transition: 1s;
     -webkit-tap-highlight-color: transparent;
     display: flex;
@@ -233,12 +253,25 @@
 }
 
 #scene-four-farmer {
-    background:url("../images/farmer_in_america.jpg") no-repeat center;
-    height:540px;
+    background:url("../images/farmer_in_america.jpg") no-repeat ;
+    height:100%;
 }
+
+#scene-four-farmer-left-text {
+    position:relative;
+    left:200px;
+    top:30px;
+    color:#000000;
+    font-family: Courgette;
+    overflow-wrap: normal;
+    width: 40em;
+
+}
+
+
 #scene-four-apprentice {
-    background:url("../images/apprentice_in_america.jpg") no-repeat center;
-    height:540px;
+    background:url("../images/apprentice_in_america.jpg") no-repeat ;
+    height:100%;
 }
 
 #scene-four-sailor {
@@ -247,8 +280,8 @@
 }
 
 #scene-army-north {
-    background:url("../images/army_as_north.jpg") no-repeat center;
-    height:540px;
+    background:url("../images/army_as_north.jpg") no-repeat ;
+    height:100%;
 }
 
 #scene-army-south {
@@ -266,7 +299,7 @@
     font-size: 20px;
     font-family: 'Cookie', cursive;
     position:absolute;
-    left:720px;
+    left:1000px;
     top:380px;
     transition: 1s;
     -webkit-tap-highlight-color: transparent;
@@ -275,6 +308,48 @@
     justify-content: center;
     cursor: pointer;
     padding-top: 5px;
+}
+
+#scene-four-army-button-left{
+  background: #d3d3d3;
+  height: 30px;
+  min-width: 60px;
+  border: none;
+  border-radius: 10px;
+  color: #222;
+  font-size: 20px;
+  font-family: 'Cookie', cursive;
+  position:absolute;
+  left:1000px;
+  top:500px;
+  transition: 1s;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-top: 5px;
+}
+
+#scene-four-army-button-right{
+  background: #d3d3d3;
+  height: 30px;
+  min-width: 60px;
+  border: none;
+  border-radius: 10px;
+  color: #222;
+  font-size: 20px;
+  font-family: 'Cookie', cursive;
+  position:absolute;
+  left:1200px;
+  top:500px;
+  transition: 1s;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-top: 5px;
 }
 
 #btn-scene-four-army-two {
@@ -299,18 +374,18 @@
 }
 #scene-four-text {
     position:relative;
-    left:250px;
-    top:40px;
+    left:1000px;
+    top:225px;
     color:#000000;
     font-family: Courgette;
     overflow-wrap: normal;
-    width: 24em;
+    width: 30em;
 }
 
 #scene-four-right {
     position:absolute;
-    left:750px;
-    top:40px;
+    left:1000px;
+    top:0px;
     color:#000000;
     font-family: Courgette;
     overflow-wrap: normal;
@@ -325,7 +400,7 @@
     font-size:40px;
 }
 #title-text-42 {
-    padding-top: 10px;
+    padding-top: 0px;
     text-align:center;
     position:relative;
     color:#000000;
@@ -333,7 +408,7 @@
 }
 #title-text-6 {
     padding-top: 40px;
-    text-align:center;
+    left: 980px;
     position:relative;
     color:#000000;
     font-size:24px;
@@ -348,8 +423,8 @@
 
 #four-pic-2 {
     position:absolute;
-    left:750px;
-    top:140px;
+    left:1000px;
+    top:90px;
     width: 42em;
     font-size:12px;
 }
@@ -364,12 +439,12 @@
 
 #scene-four-text-two {
     position:relative;
-    left:250px;
-    top:40px;
+    left:200px;
+    top:500px;
     color:#000000;
     font-family: Courgette;
     overflow-wrap: normal;
-    width: 14em;
+    width: 40em;
 }
 
 #scene-civil-one {
@@ -378,8 +453,8 @@
 }
 
 #scene-civil-two {
-    background:url("../images/grant_background.jpg") no-repeat center;
-    height:540px;
+    background:url("../images/grant_background.jpg") no-repeat ;
+    height:100%;
 }
 
 #btn-scene-four-army-mid {
@@ -392,7 +467,7 @@
     font-size: 20px;
     font-family: 'Cookie', cursive;
     position:absolute;
-    left:750px;
+    left:1000px;
     top:400px;
     transition: 1s;
     -webkit-tap-highlight-color: transparent;
@@ -449,48 +524,123 @@
 }
 
 #scene-bedford-background {
-    background:url("../images/forrest_scene.jpg") no-repeat center;
-    height:540px;
+    background:url("../images/forrest_scene.jpg") no-repeat ;
+    height:100%;
 }
 
 #scene-bedford-battles {
-    background:url("../images/bedford_battles_background.PNG") no-repeat center;
-    height:540px;
+    background:url("../images/bedford_battles_background.PNG") no-repeat ;
+    height:100%;
 }
 
 #b-pic-1 {
     position:relative;
-    left:735px;
-    top:180px;
+    left:230px;
+    top:105px;
 }
 
 #b-pic-2 {
     position:relative;
-    left:653px;
-    top:212px;
+    left:185px;
+    top:140px;
 }
 
 
 #battle-left-text {
-    position: absolute;;
-    left:200px;
-    top:50px;
-    font-size:12px;
+    position: absolute;
+    left:50px;
+    top:530px;
+    font-size:15px;
     color:#000000;
     font-family: Courgette;
     overflow-wrap: normal;
-    width: 24em;
+    width: 60em;
+}
+
+#shiloh-left-text{
+  position: absolute;
+  left:50px;
+  top:550px;
+  font-size:15px;
+  color:#000000;
+  font-family: Courgette;
+  overflow-wrap: normal;
+  width: 60em;
+}
+
+#shiloh-right-text{
+  position:absolute;
+  left:1000px;
+  top:0px;
+  font-size:14px;
+  color:#000000;
+  font-family: Courgette;
+  overflow-wrap: normal;
+  width: 30em;
 }
 
 #battle-right-text {
     position:absolute;
-    left:650px;
+    left:1000px;
     top:50px;
-    font-size:12px;
+    font-size:14px;
     color:#000000;
     font-family: Courgette;
     overflow-wrap: normal;
-    width: 27em;
+    width: 30em;
+}
+
+#revoked-right-text{
+  position:absolute;
+  left:950px;
+  top:50px;
+  font-size:14px;
+  color:#000000;
+  font-family: Courgette;
+  overflow-wrap: normal;
+  width: 30em;
+}
+
+#revoked-left-button{
+  background: #d3d3d3;
+  height: 30px;
+  min-width: 60px;
+  border: none;
+  border-radius: 10px;
+  color: #222;
+  font-size: 20px;
+  font-family: 'Cookie', cursive;
+  position:absolute;
+  left:950px;
+  top:600px;
+  transition: 1s;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-top: 5px;
+}
+
+#revoked-right-button{
+  background: #d3d3d3;
+  height: 30px;
+  min-width: 60px;
+  border: none;
+  border-radius: 10px;
+  color: #222;
+  font-size: 20px;
+  font-family: 'Cookie', cursive;
+  position:absolute;
+  left:950px;
+  top:500px;
+  transition: 1s;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-top: 5px;
 }
 
 #battle-left-button {
@@ -503,7 +653,7 @@
     font-size: 20px;
     font-family: 'Cookie', cursive;
     position:absolute;
-    left:350px;
+    left:1000px;
     top:450px;
     transition: 1s;
     -webkit-tap-highlight-color: transparent;
@@ -524,8 +674,8 @@
     font-size: 20px;
     font-family: 'Cookie', cursive;
     position:absolute;
-    left:750px;
-    top:450px;
+    left:1000px;
+    top:350px;
     transition: 1s;
     -webkit-tap-highlight-color: transparent;
     display: flex;
@@ -556,6 +706,48 @@
     padding-top: 5px;
 }
 
+#citizen-end-left-button{
+    background: #d3d3d3;
+    height: 30px;
+    min-width: 60px;
+    border: none;
+    border-radius: 10px;
+    color: #222;
+    font-size: 20px;
+    font-family: 'Cookie', cursive;
+    position:absolute;
+    left:1000px;
+    top:475px;
+    transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+#citizen-end-right-button{
+    background: #d3d3d3;
+    height: 30px;
+    min-width: 60px;
+    border: none;
+    border-radius: 10px;
+    color: #222;
+    font-size: 20px;
+    font-family: 'Cookie', cursive;
+    position:absolute;
+    left:1000px;
+    top:550px;
+    transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
 #end-left-button {
     background: #d3d3d3;
     height: 30px;
@@ -566,8 +758,8 @@
     font-size: 20px;
     font-family: 'Cookie', cursive;
     position:absolute;
-    left:350px;
-    top:250px;
+    left:1000px;
+    top:100px;
     transition: 1s;
     -webkit-tap-highlight-color: transparent;
     display: flex;
@@ -587,7 +779,7 @@
     font-size: 20px;
     font-family: 'Cookie', cursive;
     position:absolute;
-    left:750px;
+    left:1000px;
     top:250px;
     transition: 1s;
     -webkit-tap-highlight-color: transparent;
@@ -608,8 +800,8 @@
     font-size: 20px;
     font-family: 'Cookie', cursive;
     position:absolute;
-    left:550px;
-    top:350px;
+    left:1000px;
+    top:400px;
     transition: 1s;
     -webkit-tap-highlight-color: transparent;
     display: flex;
@@ -650,23 +842,23 @@
 }
 
 #scene-donelson {
-    background:url("../images/donelson.jpg") no-repeat center;
-    height:540px;
+    background:url("../images/donelson.jpg") no-repeat ;
+    height:100%;
 }
 
 #scene-shiloh {
-    background:url("../images/shiloh.jpg") no-repeat center;
-    height:540px;
+    background:url("../images/shiloh.jpg") no-repeat ;
+    height:100%;
 }
 
 #scene-never-get {
-    background:url("../images/never_get.PNG") no-repeat center;
-    height:540px;
+    background:url("../images/never_get.PNG") no-repeat ;
+    height:100%;
 }
 
 #scene-revoked {
-    background:url("../images/revoked.PNG") no-repeat center;
-    height:540px;
+    background:url("../images/revoked.PNG") no-repeat ;
+    height:100%;
 }
 
 #scene-return {
