@@ -65,6 +65,16 @@
     width: 30em;
 }
 
+#scene-three-slave-left-text{
+  position:relative;
+  left:100px;
+  top:560px;
+  color:#000000;
+  font-family: Courgette;
+  overflow-wrap: normal;
+  width: 50em;
+}
+
 #scene-three-servant-left-text{
   position:relative;
   left:200px;
@@ -164,8 +174,8 @@
 }
 
 #scene-three-slave {
-    background:url("../images/america_slave.jpg") no-repeat center;
-    height:540px;
+    background:url("../images/america_slave.jpg") no-repeat ;
+    height:100%;
 }
 
 #scene-three-missionary-right {
@@ -582,6 +592,17 @@
     width: 60em;
 }
 
+#petersburg-left-text{
+  position: absolute;
+  left:50px;
+  top:550px;
+  font-size:15px;
+  color:#000000;
+  font-family: Courgette;
+  overflow-wrap: normal;
+  width: 60em;
+}
+
 #antietam-left-text{
   position: absolute;
   left:50px;
@@ -618,7 +639,7 @@
 #harbor-right-text{
   position: absolute;
   left:1000px;
-  top:0px;
+  top:50px;
   font-size:15px;
   color:#000000;
   font-family: Courgette;
@@ -850,6 +871,48 @@
     padding-top: 5px;
 }
 
+#spotsylvania-right-button{
+  background: #d3d3d3;
+  height: 30px;
+  min-width: 60px;
+  border: none;
+  border-radius: 10px;
+  color: #222;
+  font-size: 20px;
+  font-family: 'Cookie', cursive;
+  position:absolute;
+  left:1000px;
+  top:400px;
+  transition: 1s;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-top: 5px;
+}
+
+#petersburg-right-button{
+  background: #d3d3d3;
+  height: 30px;
+  min-width: 60px;
+  border: none;
+  border-radius: 10px;
+  color: #222;
+  font-size: 20px;
+  font-family: 'Cookie', cursive;
+  position:absolute;
+  left:1000px;
+  top:400px;
+  transition: 1s;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-top: 5px;
+}
+
 #fredericksburg-right-button{
   background: #d3d3d3;
   height: 30px;
@@ -945,7 +1008,7 @@
   font-family: 'Cookie', cursive;
   position:absolute;
   left:1000px;
-  top:425px;
+  top:450px;
   transition: 1s;
   -webkit-tap-highlight-color: transparent;
   display: flex;
@@ -1097,8 +1160,8 @@
 }
 
 #scene-spotsylvania {
-    background:url("../images/spotsylvania.PNG") no-repeat center;
-    height:540px;
+    background:url("../images/spotsylvania.PNG") no-repeat ;
+    height:100%;
 }
 
 #scene-harbor {
@@ -1107,8 +1170,8 @@
 }
 
 #scene-petersburg {
-    background:url("../images/Petersburg.jpg") no-repeat center;
-    height:540px;
+    background:url("../images/Petersburg.jpg") no-repeat ;
+    height:100%;
 }
 
 #scene-donelson {
