@@ -57,12 +57,12 @@
 
 #scene-two-canton-left-text {
     position:relative;
-    left:300px;
-    top:30px;
+    left:250px;
+    top:10px;
     color:#000000;
     font-family: Courgette;
     overflow-wrap: normal;
-    width: 20em;
+    width: 30em;
 }
 
 #scene-three-servant-left-text{
@@ -172,7 +172,7 @@
 
     position:absolute;
     left:1000px;
-    top:20px;
+    top:0px;
     color:#000000;
     font-family: Courgette;
     overflow-wrap: normal;
@@ -275,8 +275,8 @@
 }
 
 #scene-four-sailor {
-    background:url("../images/sailor_in_america.jpg") no-repeat center;
-    height:540px;
+    background:url("../images/sailor_in_america.jpg") no-repeat ;
+    height:100%;
 }
 
 #scene-army-north {
@@ -421,6 +421,14 @@
     font-size:12px;
 }
 
+#civil-four-pic-1{
+  position:absolute;
+  left:1000px;
+  top:140px;
+  width: 42em;
+  font-size:12px;
+}
+
 #four-pic-2 {
     position:absolute;
     left:1000px;
@@ -429,12 +437,28 @@
     font-size:12px;
 }
 
+#civil-four-pic-2{
+  position:absolute;
+  left:1200px;
+  top:140px;
+  width: 42em;
+  font-size:12px;
+}
+
 #four-pic-3 {
     position:absolute;
     left:950px;
     top:140px;
     width: 42em;
     font-size:12px;
+}
+
+#civil-four-pic-3{
+  position:absolute;
+  left:1100px;
+  top:140px;
+  width: 42em;
+  font-size:12px;
 }
 
 #scene-four-text-two {
@@ -448,8 +472,8 @@
 }
 
 #scene-civil-one {
-    background:url("../images/mclellan.jpg") no-repeat center;
-    height:540px;
+    background:url("../images/mclellan.jpg") no-repeat ;
+    height:100%;
 }
 
 #scene-civil-two {
@@ -478,8 +502,9 @@
     padding-top: 5px;
 }
 #scene-civil-one-battles {
-    background:url("../images/slide-two.PNG") no-repeat center;
-    height:540px;
+    background:url("../images/slide-two.PNG") no-repeat ;
+    height:100%;
+
 }
 
 #scene-civil-two-battles {
@@ -491,20 +516,20 @@
 
 #mmb-pic-1 {
     position:relative;
-    left:765px;
-    top:175px;
+    left:300px;
+    top:90px;
 }
 
 #mmb-pic-2 {
     position: relative;
-    left:705px;
-    top:145px;
+    left:270px;
+    top:60px;
 }
 
 #mmb-pic-3 {
     position:relative;
-    left:705px;
-    top:115px;
+    left:260px;
+    top:30px;
 }
 
 #g-pic-1 {
@@ -557,6 +582,50 @@
     width: 60em;
 }
 
+#antietam-left-text{
+  position: absolute;
+  left:50px;
+  top:550px;
+  font-size:15px;
+  color:#000000;
+  font-family: Courgette;
+  overflow-wrap: normal;
+  width: 60em;
+}
+
+#getty-left-text{
+  position: absolute;
+  left:50px;
+  top:550px;
+  font-size:15px;
+  color:#000000;
+  font-family: Courgette;
+  overflow-wrap: normal;
+  width: 60em;
+}
+
+#harbor-left-text{
+  position: absolute;
+  left:50px;
+  top:550px;
+  font-size:15px;
+  color:#000000;
+  font-family: Courgette;
+  overflow-wrap: normal;
+  width: 60em;
+}
+
+#harbor-right-text{
+  position: absolute;
+  left:1000px;
+  top:0px;
+  font-size:15px;
+  color:#000000;
+  font-family: Courgette;
+  overflow-wrap: normal;
+  width: 30em;
+}
+
 #shiloh-left-text{
   position: absolute;
   left:50px;
@@ -588,6 +657,39 @@
     font-family: Courgette;
     overflow-wrap: normal;
     width: 30em;
+}
+
+#antietam-right-text{
+  position:absolute;
+  left:1000px;
+  top:50px;
+  font-size:14px;
+  color:#000000;
+  font-family: Courgette;
+  overflow-wrap: normal;
+  width: 30em;
+}
+
+#getty-right-text{
+  position:absolute;
+  left:1000px;
+  top:50px;
+  font-size:14px;
+  color:#000000;
+  font-family: Courgette;
+  overflow-wrap: normal;
+  width: 30em;
+}
+
+#return-right-text{
+  position:absolute;
+  left:950px;
+  top:50px;
+  font-size:14px;
+  color:#000000;
+  font-family: Courgette;
+  overflow-wrap: normal;
+  width: 30em;
 }
 
 #revoked-right-text{
@@ -664,6 +766,69 @@
     padding-top: 5px;
 }
 
+#getty-left-button{
+  background: #d3d3d3;
+  height: 30px;
+  min-width: 60px;
+  border: none;
+  border-radius: 10px;
+  color: #222;
+  font-size: 20px;
+  font-family: 'Cookie', cursive;
+  position:absolute;
+  left:1000px;
+  top:450px;
+  transition: 1s;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-top: 5px;
+}
+
+#return-left-button{
+  background: #d3d3d3;
+  height: 30px;
+  min-width: 60px;
+  border: none;
+  border-radius: 10px;
+  color: #222;
+  font-size: 20px;
+  font-family: 'Cookie', cursive;
+  position:absolute;
+  left:950px;
+  top:550px;
+  transition: 1s;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-top: 5px;
+}
+
+#harbor-left-button{
+  background: #d3d3d3;
+  height: 30px;
+  min-width: 60px;
+  border: none;
+  border-radius: 10px;
+  color: #222;
+  font-size: 20px;
+  font-family: 'Cookie', cursive;
+  position:absolute;
+  left:1000px;
+  top:500px;
+  transition: 1s;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-top: 5px;
+}
+
 #battle-right-button {
     background: #d3d3d3;
     height: 30px;
@@ -683,6 +848,111 @@
     justify-content: center;
     cursor: pointer;
     padding-top: 5px;
+}
+
+#fredericksburg-right-button{
+  background: #d3d3d3;
+  height: 30px;
+  min-width: 60px;
+  border: none;
+  border-radius: 10px;
+  color: #222;
+  font-size: 20px;
+  font-family: 'Cookie', cursive;
+  position:absolute;
+  left:1000px;
+  top:500px;
+  transition: 1s;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-top: 5px;
+}
+
+#antietam-right-button{
+  background: #d3d3d3;
+  height: 30px;
+  min-width: 60px;
+  border: none;
+  border-radius: 10px;
+  color: #222;
+  font-size: 20px;
+  font-family: 'Cookie', cursive;
+  position:absolute;
+  left:1000px;
+  top:400px;
+  transition: 1s;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-top: 5px;
+}
+
+#getty-right-button{
+  background: #d3d3d3;
+  height: 30px;
+  min-width: 60px;
+  border: none;
+  border-radius: 10px;
+  color: #222;
+  font-size: 20px;
+  font-family: 'Cookie', cursive;
+  position:absolute;
+  left:1000px;
+  top:500px;
+  transition: 1s;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-top: 5px;
+}
+
+#return-right-button{
+  background: #d3d3d3;
+  height: 30px;
+  min-width: 60px;
+  border: none;
+  border-radius: 10px;
+  color: #222;
+  font-size: 20px;
+  font-family: 'Cookie', cursive;
+  position:absolute;
+  left:950px;
+  top:600px;
+  transition: 1s;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-top: 5px;
+}
+
+#harbor-right-button{
+  background: #d3d3d3;
+  height: 30px;
+  min-width: 60px;
+  border: none;
+  border-radius: 10px;
+  color: #222;
+  font-size: 20px;
+  font-family: 'Cookie', cursive;
+  position:absolute;
+  left:1000px;
+  top:425px;
+  transition: 1s;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-top: 5px;
 }
 
 #battle-bottom-button {
@@ -812,18 +1082,18 @@
 }
 
 #scene-fredericksburg {
-    background:url("../images/Fredericksburg.jpg") no-repeat center;
-    height:540px;
+    background:url("../images/Fredericksburg.jpg") no-repeat ;
+    height:100%;
 }
 
 #scene-antietam {
-    background:url("../images/Antietam.jpg") no-repeat center;
-    height:540px;
+    background:url("../images/Antietam.jpg") no-repeat ;
+    height:100%;
 }
 
 #scene-gettysburg {
-    background:url("../images/Gettysburg.jpg") no-repeat center;
-    height:540px;
+    background:url("../images/Gettysburg.jpg") no-repeat ;
+    height:100%;
 }
 
 #scene-spotsylvania {
@@ -832,8 +1102,8 @@
 }
 
 #scene-harbor {
-    background:url("../images/cold_harbor.jpg") no-repeat center;
-    height:540px;
+    background:url("../images/cold_harbor.jpg") no-repeat ;
+    height:100%;
 }
 
 #scene-petersburg {
@@ -862,6 +1132,6 @@
 }
 
 #scene-return {
-    background:url("../images/return.PNG") no-repeat center;
-    height:540px;
+    background:url("../images/return.PNG") no-repeat ;
+    height:100%;
 }
