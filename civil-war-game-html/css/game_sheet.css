@@ -3,7 +3,7 @@
     background:url("../images/world_map.png") no-repeat ;
     height:617px;
     margin: auto;
-} 
+}
 #title-text {
     text-align:center;
     position:relative;
@@ -25,29 +25,50 @@
 }
 
 #scene-two-charleston {
-    background:url("../images/chose_sc.jpg") no-repeat center ;
-    height:540px;
+    background:url("../images/chose_sc.jpg") no-repeat  ;
+    height:100%;
 }
 
-#scene-two-canton {
-    background:url("../images/chose_canton.jpg") no-repeat center;
-    height:540px;
-}
-
-#scene-two-canton-left-text {
+#scene-two-charleston-left-text {
     position:relative;
     left:200px;
+    top:30px;
+    color:#000000;
+    font-family: Courgette;
+    overflow-wrap: normal;
+    width: 40em;
+}
+
+#scene-two-charleston-right-text{
+    position:relative;
+    left: 1000px;
     top:50px;
     color:#000000;
     font-family: Courgette;
     overflow-wrap: normal;
-    width: 13em;
+    width: 18em;
+}
+
+#scene-two-canton {
+    background:url("../images/chose_canton.jpg") no-repeat ;
+    height: 100%;
+
+}
+
+#scene-two-canton-left-text {
+    position:relative;
+    left:300px;
+    top:30px;
+    color:#000000;
+    font-family: Courgette;
+    overflow-wrap: normal;
+    width: 20em;
 }
 
 #scene-two-canton-right-text {
     position:relative;
-    left:750px;
-    top:40px;
+    left: 1000px;
+    top:50px;
     color:#000000;
     font-family: Courgette;
     overflow-wrap: normal;
@@ -64,7 +85,7 @@
     font-size: 16px;
     font-family: 'Cookie', cursive;
     position:absolute;
-    left:640px;
+    left:1000px;
     top:100px;
     transition: 1s;
     -webkit-tap-highlight-color: transparent;
@@ -85,8 +106,8 @@
     font-size: 16px;
     font-family: 'Cookie', cursive;
     position:absolute;
-    left:870px;
-    top:100px;
+    left:1000px;
+    top:150px;
     transition: 1s;
     -webkit-tap-highlight-color: transparent;
     display: flex;
@@ -106,8 +127,8 @@
     font-size: 16px;
     font-family: 'Cookie', cursive;
     position:absolute;
-    left:780px;
-    top:150px;
+    left:1000px;
+    top:200px;
     transition: 1s;
     -webkit-tap-highlight-color: transparent;
     display: flex;
@@ -128,7 +149,7 @@
 }
 
 #scene-three-missionary-right {
-    
+
     position:absolute;
     left:550px;
     top:40px;
@@ -387,8 +408,10 @@
 }
 
 #scene-civil-two-battles {
-    background:url("../images/slide-seven.PNG") no-repeat center;
-    height:540px;
+    background:url("../images/slide-seven.PNG") no-repeat ;
+    height:640px;
+    margin: auto;
+
 }
 
 #mmb-pic-1 {
@@ -408,20 +431,21 @@
     left:705px;
     top:115px;
 }
+
 #g-pic-1 {
     position:relative;
-    left:768px;
-    top:178px;
+    left: 315px;
+    top:100px;
 }
 #g-pic-2 {
     position:relative;
-    left:760px;
-    top:205px;
+    left:450px;
+    top:125px;
 }
 #g-pic-3 {
     position:relative;
-    left:695px;
-    top:220px;
+    left:255px;
+    top:135px;
 }
 
 #scene-bedford-background {
